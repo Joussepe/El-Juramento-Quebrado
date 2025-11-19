@@ -85,6 +85,11 @@ public class CaballeroMovement : MonoBehaviour
                 Rigidbody2D.linearVelocity = Vector2.zero; // Detiene todo movimiento
                 Animator.SetBool("Caminando", false);      // Detiene la animación de caminar si estaba activa
                 // ya dejamos el Animator.SetBool("muerto", muerto) en Update para reflejarlo
+
+                if (GameManager.Instance != null)
+                {
+                    GameManager.Instance.GameOver();
+                }
             }
             if (!muerto)
             {

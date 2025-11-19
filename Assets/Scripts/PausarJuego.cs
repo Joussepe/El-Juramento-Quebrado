@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem.iOS;
+using UnityEngine.SceneManagement;
 
 public class PausarJuego : MonoBehaviour
 {
@@ -33,5 +34,17 @@ public class PausarJuego : MonoBehaviour
         menuPausa.SetActive(true);
         Time.timeScale = 0;
         juegoPausado = true;
+    }
+
+    public void irAlMenu()
+    {
+        Reanudar();
+        SceneManager.LoadScene("Menu");
+    }
+
+    public void irAlSelector()
+    {
+        Reanudar();
+        SceneManager.LoadScene("Niveles");
     }
 }
