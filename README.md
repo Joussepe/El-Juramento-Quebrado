@@ -30,7 +30,7 @@ Tú eres **Cassian**, el Penitente de la Ceniza. Un ex-Inquisidor que descubrió
 
 ## 🎮 Jugar Ahora
 
-https://play.unity.com/en/games/99b0c4f7-509b-4805-8bfb-5d4caddc9ec8/el-juramento-quebrado-v01
+[https://play.unity.com/en/games/99b0c4f7-509b-4805-8bfb-5d4caddc9ec8/el-juramento-quebrado-v01](https://play.unity.com/en/games/9d98e11e-ddf9-4da2-ab17-a79695d8d094/el-juramento-quebrado)
 
 ## 🛠️ Características Técnicas
 
